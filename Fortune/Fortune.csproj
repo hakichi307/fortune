@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\Background.png" />
+    <None Remove="img\gaixinh2_login.png" />
+    <None Remove="img\gaixinh_login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\Background.png" />
+    <Resource Include="img\gaixinh2_login.png" />
+    <Resource Include="img\gaixinh_login.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="music\" />
+  </ItemGroup>
+
+</Project>
